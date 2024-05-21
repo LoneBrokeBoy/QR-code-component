@@ -28,34 +28,31 @@ p {
 
 .content {
   grid-area: content;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "qr"
-  "link";
 }
 
 .container {
   grid-area: qr;
   background-color: var(--bg-2);
   display: block;
-  border-radius: 1.333rem;
+  border-radius: 0.8rem;
   margin: auto;
+  margin-top: 12rem;
   width: max-content;
   height: 33.333rem;
+  box-shadow: 0rem 1rem 1rem 2px rgba(0, 0, 0, 0.15);
 }
 
 .image-qr-code {
   margin: 1.333rem 1.333rem 1.333rem 1.333rem;
   vertical-align: middle;
-  border-radius: 1.333rem;
+  border-radius: 0.8rem;
   width: 20rem;
 }
 
 .title {
   color: var(--title-text);
   width: 16.667rem;
-  font-size: 1rem;
+  font-size: 1.33rem;
   margin: auto;
   vertical-align: middle;
   text-align: center;
@@ -71,16 +68,6 @@ p {
   text-align: center;
   vertical-align: middle;
   font-weight: 400;
-}
-
-.attribution { 
-  font-size: 0.733rem;
-  margin: auto;
-}
-
-.attribution a { 
-  color: hsl(228, 45%, 44%);
-  grid-area: link;
 }
 
 @media (max-width: 30.333rem) {
