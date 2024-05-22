@@ -13,10 +13,8 @@ body {
   background-color: var(--bg-1);
   font-family: Outfit;
   display: grid;
+  margin: 0;
   height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "empty1 content  empty2";
 }
 
 p {
@@ -29,7 +27,6 @@ p {
 }
 
 .container {
-  grid-area: qr;
   background-color: var(--bg-2);
   display: block;
   border-radius: 0.8rem;
